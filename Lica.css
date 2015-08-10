@@ -1,0 +1,154 @@
+@charset "utf-8";
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+#logo {
+  width: 80%;
+  height: 20px;
+  margin: 30px auto 0 auto;
+/*  border: 1px solid black;*/
+}
+#logo p {
+  color: #6E6E6E;
+  display: inline-block;
+  margin: 0;
+  font-size: 120%;
+  font-family: 'Source Code Pro', ;
+}
+#contents {
+  width: 80%;
+  height: 500px;
+/*  border: 1px solid black;*/
+  margin: 0 auto 0 auto;
+}
+#global-nav {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+#global-nav ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0;
+}
+#global-nav ul li {
+  position: relative;
+/*  border: 1px solid black;*/
+  display: inline-block;
+  padding:0 15PX 0 15px;
+  font-size: 80%;
+  color: #6E6E6E;
+  font-family: 'Lato', sans-serif;
+}
+#global-nav ul li a {
+  text-decoration: none;
+  color: #6E6E6E;
+}
+#global-nav ul li a:hover {
+  color: #BF00FF;
+}
+#submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 0;
+  margin: 0;
+}
+.dropdown {
+  overflow: hidden;
+  height: 0;
+}
+.dropdown a {
+  
+}
+#global-nav ul li:hover ul li {
+  overflow: visible;
+}
+#fotter {
+  width: 90%;
+  height: 80px;
+  margin: 0 auto 0 auto;
+/*  border: 1px solid black;*/
+  color: #6E6E6E;
+  font-size: 80%;
+  font-family: 'Lato', sans-serif;
+}
+#fotter ul {
+  list-style-type: none;
+}
+#fotter ul li a {
+  text-decoration: none;
+  color: #6E6E6E;
+}
+#fotter ul li a:hover {
+  color: #BF00FF;
+}
+.sitemap li {
+  float: left;
+}
+/*実験*/
+#dropmenu{
+  list-style-type: none;
+  width: 800px;
+  height: 40px;
+  margin: 30px auto 300px;
+  padding: 0;
+  background: #8a9b0f;
+  border-bottom: 5px solid #535d09;
+  border-radius: 3px 3px 0 0;
+}
+#dropmenu li{
+  position: relative;
+  width: 20%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#dropmenu li a{
+  display: block;
+  margin: 0;
+  padding: 15px 0 11px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+}
+#dropmenu li:hover > a{
+  background: #6e7c0c;
+  color: #eff7b1;
+}
+#dropmenu li ul{
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 0 3px 3px;
+}
+#dropmenu li ul li{
+  overflow: hidden;
+  width: 200%;
+  height: 0;
+  color: #fff;
+  -moz-transition: .2s;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  -ms-transition: .2s;
+  transition: .2s;
+}
+#dropmenu li:hover ul li{
+  overflow: visible;
+  height: 38px;
+  border-top: 1px solid #7c8c0e;
+  border-bottom: 1px solid #616d0b;
+}
+#dropmenu li:hover ul li:first-child{
+  border-top: 0;
+}
+#dropmenu li:hover ul li:last-child a{
+  border-radius: 0 0 3px 3px;
+}
