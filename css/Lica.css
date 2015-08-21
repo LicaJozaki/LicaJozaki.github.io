@@ -72,7 +72,6 @@ body {
 }
 
 #global-nav ul li {
-    /*  position: relative;*/
     display: inline-block;
     font-size: 80%;
     color: #6E6E6E;
@@ -94,58 +93,6 @@ body {
     background-color: #eaeaea;
     text-decoration: underline;
 }
-
-
-/*
-#submenu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  padding: 0;
-  margin: 0;
-}
-.dropdown {
-  overflow: hidden;
-  height: 0;
-}
-.dropdown a {}
-#global-nav ul li:hover ul li {
-  overflow: visible;
-}
-#fotter {
-  width: 80%;
-  height: 80px;
-  margin: 40px auto 0 auto;
-    border: 1px solid black;
-  color: #6E6E6E;
-  font-size: 80%;
-}
-*/
-
-
-/*
-#fotter ul {
-  list-style-type: none;
-  text-align: left;
-}
-#fotter ul li {
-  display: inline-block;
-  width: 80px;
-  height: 20px;
-}
-#fotter ul li a {
-  display: inline-block;
-  text-decoration: none;
-  color: #6E6E6E;
-}
-#fotter ul li a:hover {
-  color: #BF00FF;
-}
-.sitemap li {
-  float: left;
-}
-*/
-
 
 /*ここからwork*/
 
@@ -183,7 +130,6 @@ body {
 }
 
 .image_box {
-    /*    width:280px;*/
     margin-bottom: 20px;
 }
 
@@ -195,7 +141,6 @@ body {
 
 #tab:after {
     content: "";
-/*    clear: both;*/
     height: 0;
     display: block;
     visibility: hidden;
@@ -209,7 +154,6 @@ body {
 #tab li {
     display: inline-block;
     text-align: center;
-/*    float: left;*/
     list-style-type: none;
     padding-right: 10px;
 }
@@ -248,10 +192,10 @@ body {
     width: 150px;
     height: 150px;
     line-height: 150px;
-    font-family: 'Poiret One', cursive;
+  font-family: 'Josefin Slab', serif;
     /*  font-family: 'Raleway', sans-serif;*/
     /*  font-weight: 500;*/
-    font-size: 120%;
+/*    font-size: 120%;*/
     color: #444444;
 }
 

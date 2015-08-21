@@ -33,7 +33,9 @@ body {
   /*    background-image: url(imgs/icon1_off.png) 15px 50% no-repeat;*/
   padding: 10px 0 10px 30px;
   border-radius: 6px 0 0 6px;
-  font-family: 'Syncopate', sans-serif;
+/*  font-family: 'Syncopate', sans-serif;*/
+  font-family: 'Josefin Slab', serif;
+  font-size: 120%;
   /*    font-family: 'Poiret One', cursive;*/
 }
 .tabSet .tab a:hover {

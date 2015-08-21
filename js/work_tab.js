@@ -23,6 +23,7 @@ $(function() {
                 currentPanel.fadeIn(200);
                 lastAnchor = currentAnchor;
                 lastPanel = currentPanel;
+                $(currentPanel.selector + " #tab li").first().click();
             });
         });
     });
