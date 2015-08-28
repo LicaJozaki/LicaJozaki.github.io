@@ -28,6 +28,14 @@ body {
 #empty {
   height: 40px;
 }
+
+/*
+.top-slide {
+  width: 95%;
+  height: auto;
+}
+*/
+
 #slideshow {
   width: 840px;
   height: 540px;
@@ -134,11 +142,15 @@ body {
   display: inline-block;
   text-align: center;
   list-style-type: none;
-  padding:0 5px 0 5px;
+  padding: 0 5px 0 5px;
 }
 #tab li:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+img {
+  max-width: 100%;
+  min-height: 100%;
 }
 
 /*ここからworktop*/
