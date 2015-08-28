@@ -30,9 +30,9 @@ body {
 
 #slideshow {
   width: 840px;
-/*  height: 540px;*/
+  height: 540px;
 /*  height: 0;*/
-  padding-top: 45%;
+/*  padding-top: 45%;*/
   background-image: url(../images/slideshow4b.jpg), url(../images/slideshow6b.jpg), url(../images/slideshow5b.jpg);
   background-repeat: no-repeat;
   background-size: contain;
